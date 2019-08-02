@@ -1,6 +1,6 @@
-##Flexbox布局练习例子
+## Flexbox布局练习例子
 
-####参考资源
+#### 参考资源
 
 >> Flex 布局教程：语法篇 ： http://www.ruanyifeng.com/blog/2015/07/flex-grammar.htmlFlex
 
@@ -10,16 +10,16 @@ Flex 布局教程：实例篇 (代码) ：https://codepen.io/LandonSchropp/pen/K
 
 ​Flex 布局练习示例代码：https://github.com/XK-one/FlexboxTest​
 
-###Flex布局的简介
+### Flex布局的简介
 
 Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性任何一个容器都可以指定为 Flex 布局，行内元素也可以使用 Flex 布局，Webkit 内核的浏览器，必须加上-webkit前缀，即 display: -webkit-flex; /* Safari */​注意，设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效
 ​
-###基本概念
+### 基本概念
 
 容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size
 flex作用的容易默认存在两根轴，水平的主轴和垂直的交叉轴，项目(子控件)默认沿主轴从左到右排列,
 
-###容器的属性
+### 容器的属性
 
 **flex-direction**
 
@@ -52,6 +52,7 @@ justify-content属性定义了项目在主轴上的对齐方式可能取5个值�
  - space-around：每个项目(控件)两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍
 
 > 注意：这里的取值要结合flex-direction，对齐方式是和主轴的方向有关的
+
 ​​
 **align-items**
 
@@ -76,7 +77,7 @@ align-content属性定义了多根轴线的对齐方式。如果项目只有一�
  - stretch（默认值）：轴线占满整个交叉轴
 
 
-###项目(控件)的属性
+### 项目(控件)的属性
 
 **order**
 
@@ -104,4 +105,4 @@ align-content属性定义了多根轴线的对齐方式。如果项目只有一�
 ​
 **align-self**
 
->align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch该属性可能取6个值，除了auto，其他都与align-items属性完全一致​​注意： align-self的场景是作用在项目(控件)上, 当单个项目有与其他项目不一样的对齐方式，这时候align-self就能上场了​​
+>align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch该属性可能取6个值，除了auto，其他都与align-items属性完全一致​​注意： align-self的场景是作用在项目(控件)上, 当单个项目有与其他项目不一样的对齐方式，这时候align-self就能上场了​​​​
