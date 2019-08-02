@@ -1,0 +1,17 @@
+.parent{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  background-color: black;
+  flex-flow: row wrap;
+  margin-top: 10px;
+  align-content: flex-start;
+}
+
+.child{
+  box-sizing: border-box;
+  background-color: white;
+  height: 50px;
+  border: 1px solid red;
+  flex: 0 0 25%;
+}

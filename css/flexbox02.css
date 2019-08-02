@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+
+}
+.pip{
+  background-color: #f0f0f0;
+  height: 30px;
+  flex: 1;
+  margin: 6px;
+  text-align: center;
+
+}
+
+.pip1{
+  background-color: #f0f0f0;
+  height: 130px;
+  flex: 1;
+  margin: 6px;
+  text-align: center;
+}
+
+
+
